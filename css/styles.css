@@ -42,6 +42,10 @@ a {
   font-family: "Montserrat",cursive;
   color: #EAF6F6;
 }
+a:hover{
+  color: #EAF6F6;
+}
+
 .art {
   text-decoration: underline;
 }
@@ -63,6 +67,11 @@ a {
   background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
 }
 
 .profile{
@@ -106,8 +115,9 @@ a {
 }
 
 .contact-me-explanation{
-  margin-bottom: 50px;
+  margin: 40px auto 60px;
   line-height: 2;
+  width: 40%
 }
 
 .bottom-container{
@@ -129,7 +139,7 @@ a {
   background: #11CDD4;
   background-image: linear-gradient(to bottom, #11CDD4, #11999E);
   border-radius: 8px;
-  font-family: Arial;
+  font-family: "Montserrat",cursive;
   color: #ffffff;
   font-size: 20px;
   margin: 50px auto 50px auto;
@@ -147,4 +157,5 @@ a {
   padding-top: 20px;
   color: #EAF6F6;
   font-size: 12px;
+
 }
